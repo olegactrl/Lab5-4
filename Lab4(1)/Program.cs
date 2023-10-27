@@ -1,10 +1,19 @@
-﻿namespace Lab4_1_
+﻿using System;
+
+namespace Lab4
 {
-    internal class Program
+    internal class MainClass
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Ecosystem ecosystem = new Ecosystem();
+            ecosystem.Plant();
+            ecosystem.Weight();
+            ecosystem.Hunt();
+            ecosystem.Reproduct();
+            ecosystem.Number();
+            Console.WriteLine();
         }
+
     }
 }

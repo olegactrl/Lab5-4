@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab4_1_
+namespace Lab4
 {
-    internal class Animal
+    public class Animal : Creatures
     {
+        public void Weight()
+        {
+        }
     }
 }

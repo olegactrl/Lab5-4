@@ -1,15 +1,17 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab4
+namespace Lab4_2_
 {
-    class Plants : Creatures
+    public class WorkStation : Computer
     {
-        public static void Plant(int FinalTime = 10)
+        public void Work()
         {
+
         }
     }
 }

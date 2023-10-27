@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab4
+namespace Lab4_2_
 {
-    class Plants : Creatures
+    public interface IConnectable
     {
-        public static void Plant(int FinalTime = 10)
-        {
-        }
+        void Connect() { }
+        void Share() { }
+        void Receive() { }
     }
 }
